@@ -8,9 +8,9 @@ $primary: #cb9b3f;
 $secondary: #eecc8a;
 $body-bg: #fcfbf9;
 $body-color: #080705;
-$font-family-base: "Nunito";
-$headings-font-family: "Source Serif 4";
-$headings-font-weight: 600;
+$font-family-base: "Merriweather-Sans";
+$headings-font-family: "Merriweather";
+$headings-font-weight: 700;
 
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
@@ -72,7 +72,7 @@ $theme-colors: (
 //@import "bootstrap/scss/modal";
 //@import "bootstrap/scss/tooltip";
 //@import "bootstrap/scss/popover";
-//@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/carousel";
 //@import "bootstrap/scss/spinners";
 //@import "bootstrap/scss/offcanvas";
 //@import "bootstrap/scss/placeholders";
