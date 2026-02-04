@@ -2,13 +2,18 @@
 //@import "bootstrap/scss/bootstrap";
 // Configuration
 @import "bootstrap/scss/functions";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+// Import Fantawesome
+@import "@fortawesome/fontawesome-free/css/all";
+
 
 
 $primary: #cb9b3f;
 $secondary: #eecc8a;
 $body-bg: #fcfbf9;
 $body-color: #080705;
-$font-family-base: "Merriweather-Sans";
+$font-family-base: "Merriweather Sans";
 $headings-font-family: "Merriweather";
 $headings-font-weight: 700;
 
