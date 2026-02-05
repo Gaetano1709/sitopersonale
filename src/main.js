@@ -2,7 +2,6 @@
 import "/src/style.scss";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-
 // Import all of Bootstrap’s JS
 //import * as bootstrap from "bootstrap";
 
@@ -10,7 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 // import 'bootstrap/js/dist/alert';
 import "bootstrap/js/dist/button";
-import 'bootstrap/js/dist/carousel';
+import "bootstrap/js/dist/carousel";
 import "bootstrap/js/dist/collapse";
 // import 'bootstrap/js/dist/dropdown';
 //import 'bootstrap/js/dist/modal';
@@ -20,3 +19,20 @@ import "bootstrap/js/dist/collapse";
 // import 'bootstrap/js/dist/tab';
 // import 'bootstrap/js/dist/toast';
 // import 'bootstrap/js/dist/tooltip';
+
+import { gsap } from "gsap";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.from("#hero .col-12:first-child", {
+
+    x: -500,
+    duration: 1
+})
+
+gsap.from("#hero .col-12:last-child", {
+    x: 500,
+    duration: 1
+})
