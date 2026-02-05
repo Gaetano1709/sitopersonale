@@ -36,4 +36,3 @@ gsap.from("#hero .col-12:last-child", {
     x: 500,
     duration: 1
 })
-gsap.set("  ")
